@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+  }
+
+  .container img {
+    width: 48%;
+  }
+
+  .contenedorTexto {
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+
+  }
+  
+  .cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+  .detailsImg {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .dietaT {
+    display: inline-flex;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    background-color: #EF3E36;
+    border: 0px;
+    margin: 10px;
+    padding: 5px;
+
+  }
+
+  .parrafos {
+    text-align: justify;
+    margin-bottom: 20px;
+    margin: 40px;
+}
+  
+  
+  .nameDetail {
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #fc0000;
+  }
+  
+  .dietsDetail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  .hbtn {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 25px;
+    margin: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.hbtn:hover {
+    color:#fc0000;
+    background-color: rgb(252, 249, 249);
+}
+
+.stepsUl {
+    list-style-type:none;
+    margin: 50px;
+}
+
+.titleDiets {
+    background: linear-gradient(to right, #257207, #3eb80e);
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	transition: all .5s ease;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	margin: 0.1em;
+	padding: 1px;
+}

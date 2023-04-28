@@ -1,0 +1,79 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+.card {
+   position: relative;
+   background: #fff;
+   max-width: 300px;
+   margin: 20px auto;
+   box-shadow: 0px 0px 30px 2px #000;
+
+
+}
+
+.cabeza {
+    background: #fff;
+      background-size: cover;
+      min-height: 350px;
+
+}
+
+.cardName {
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px 30px;
+}
+
+.cardImg {
+      background-size: cover;
+  width: 100%;
+      max-width: 100%;
+  
+}
+
+.btn {
+    display: block;
+    background: #EF3E36;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 10px;
+    transition: 250ms;
+
+}
+
+.btn:hover {
+       background: #d42e26;
+       transition: 250ms;
+    }
+ 
+
+
+    .cardDieta {
+        display: inline-flex;
+        background: #EF3E36;
+        color: #fff;
+        font-weight: bold;
+        border-color: #EF3E36;
+
+    }
+
+    .titleDietas {
+    background: linear-gradient(to right, #257207, #3eb80e);
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	transition: all .5s ease;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	margin: 0.1em;
+	padding: 1px;
+    }

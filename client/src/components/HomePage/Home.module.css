@@ -1,0 +1,102 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mxauto {
+	display: inline-flex;  /*display: flex; el cual vuelve al contenedor un elemento flex*/
+	flex-direction: column-reverse;
+	align-items: center;
+	margin-left: 8vh;  /*justify-content: center; le decimos a los elementos del contenedor flex que se ubiquen al centro del eje principal eje horizontal*/
+	justify-content: center; /*align-items: center; estamos diciendo que queremos que los elementos dentro del contenedor flex se ubiquen en el centro del eje secundario eje vertical*/
+	min-height: 20vh;  /*min-height: 100vh; que significa tome como altura mínima del contenedor el total del alto de la ventana del navegador web utilizado.*/
+  }
+
+
+.containerText {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;   
+    padding: 60px 0;
+    width: 100%;
+    max-width: 2000px;
+    overflow: hidden;
+    margin: -20px;
+}
+
+
+.containerFiltro {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;   
+    padding: 60px 0;
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+    margin: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreshButton {
+    color: rgb(231, 218, 218);
+    background-color: rgb(202, 17, 17);
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 25px;
+    font-family:'Times New Roman', Times, serif;   
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.refreshButton:hover {
+    color:rgb(243, 193, 193);
+    background-color: rgb(230, 21, 21);
+}
+
+.createButton {
+    color: rgb(231, 218, 218);
+    background-color: rgb(202, 17, 17);
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;   
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.createButton:hover {
+    color:rgb(243, 193, 193);
+    background-color: rgb(230, 21, 21);
+}
+
+.filters {
+    display: flex;
+    color: rgb(230, 21, 21);
+    font-weight: 600;    
+    padding: 10px 3px 0px;
+    
+}
+
+.opciones1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
